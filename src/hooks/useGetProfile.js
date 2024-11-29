@@ -19,6 +19,6 @@ const useGetProfile = (id) => {
             }
         }
         fetchMyProfile();
-    },[id]);
+    },[dispatch,id]);
 };
 export default useGetProfile;
